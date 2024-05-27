@@ -1,0 +1,53 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://t3.ftcdn.net/jpg/04/26/36/60/240_F_426366040_sT9jsSsdqdkhtiHtN1z3Y9feXwkwZXlH.jpg);
+    margin: 0;
+}
+
+.container {
+    margin: 20px auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding */
+    background-color: #fff; /* Add background color */
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    max-width: 400px; /* Set maximum width */
+}
+
+h1 {
+    margin: 20px auto; /* Center the heading horizontally */
+    text-align: center; /* Align text in the center */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px; /* Increase padding */
+    width: calc(100% - 20px); /* Adjust width */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    transition: border-color 0.3s; /* Add transition */
+}
+
+input:focus {
+    border-color: #007BFF; /* Change border color on focus */
+    outline: none;
+}
+
+.btn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px; /* Add border radius */
+    transition: background-color 0.3s; /* Add transition */
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
